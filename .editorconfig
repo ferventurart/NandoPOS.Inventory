@@ -1,6 +1,4 @@
-﻿
-
-root = true
+﻿root = true
 
 # C# files
 [*.cs]
