@@ -13,4 +13,14 @@
   <ItemGroup>
     <ProjectReference Include="..\Application\Application.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="Controllers\" />
+    <None Remove="Contracts\" />
+    <None Remove="Contracts\Stores\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Contracts\" />
+    <Folder Include="Contracts\Stores\" />
+  </ItemGroup>
 </Project>

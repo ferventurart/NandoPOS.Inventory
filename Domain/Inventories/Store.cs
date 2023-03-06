@@ -2,7 +2,12 @@
 
 public class Store
 {
-    public Store(string name, string address, string phoneNumber, string manager, string email)
+    public Store(
+        string name,
+        string address,
+        string phoneNumber,
+        string manager,
+        string email)
     {
         Name = name;
         Address = address;

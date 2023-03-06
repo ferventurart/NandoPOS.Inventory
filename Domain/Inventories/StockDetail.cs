@@ -2,7 +2,11 @@
 
 public class StockDetail
 {
-    public StockDetail(string? size, string? color, decimal quantity, decimal value)
+    public StockDetail(
+        string? size,
+        string? color,
+        decimal quantity,
+        decimal value)
     {
         Size = size;
         Color = color;

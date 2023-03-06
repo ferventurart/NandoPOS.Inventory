@@ -20,10 +20,20 @@
     <None Remove="Products\" />
     <None Remove="Products\CreateProduct\" />
     <None Remove="Abstractions\EventBus\" />
+    <None Remove="Stores\" />
+    <None Remove="Stores\CreateStore\" />
+    <None Remove="Stores\UpdateStore\" />
+    <None Remove="Stores\GetAllStores\" />
+    <None Remove="Stores\GetStore\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Products\" />
     <Folder Include="Products\CreateProduct\" />
     <Folder Include="Abstractions\EventBus\" />
+    <Folder Include="Stores\" />
+    <Folder Include="Stores\CreateStore\" />
+    <Folder Include="Stores\UpdateStore\" />
+    <Folder Include="Stores\GetAllStores\" />
+    <Folder Include="Stores\GetStore\" />
   </ItemGroup>
 </Project>

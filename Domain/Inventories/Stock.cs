@@ -5,7 +5,9 @@ namespace Domain.Inventories;
 
 public class Stock : AggregateRoot
 {
-    public Stock(Product product, Store store)
+    public Stock(
+        Product product,
+        Store store)
     {
         Product = product;
         Store = store;
